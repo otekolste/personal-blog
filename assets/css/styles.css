@@ -1,0 +1,43 @@
+:root{
+    --salmon: #E88D67;
+    --beige: #F3F7EC;
+    --mid-blue: #006989;
+    --navy-blue: #005C78;
+}
+
+header{
+    height: 100px;
+    background-color: var(--salmon);
+    color: var(--beige);
+    font-size: 250%;
+    text-align:center;
+
+}
+
+header h1{
+    padding-top: 25px;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    column-gap: 50px;
+}
+
+#catpic{
+    margin-top:10%;
+    margin-left: 10%;
+}
+
+#catsection{
+    height: 100vh;
+    flex: 1 0 50%;
+    border-right: 10px double;
+
+}
+
+#formsection{
+    flex: 1 0 50%;
+
+}
+
