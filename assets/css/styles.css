@@ -10,6 +10,7 @@ header{
     font-size: 250%;
     text-align:center;
     border-bottom: 10px double;
+    position:relative;
 
 }
 
@@ -17,7 +18,18 @@ header h1{
     padding-top: 25px;
 }
 
-main{
+#toggle{
+    border: none;
+    background-color:transparent;
+    font-size: 75%;
+    position:absolute;
+    right: 20px;
+    bottom: 10px;
+
+}
+
+
+#entry{
     display:flex;
     justify-content:center;
     column-gap: 50px;
@@ -40,4 +52,11 @@ main{
     flex: 1 0 50%;
 
 }
+
+.dark{
+    background-color: rgb(12, 7, 46);
+    color: lightgray;
+
+}
+
 

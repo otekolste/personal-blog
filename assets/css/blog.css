@@ -1,31 +1,16 @@
-header{
-    height: 100px;
-    font-size: 250%;
-    text-align:center;
-    border-bottom: 10px double;
-    position:relative;
-
-
-}
-
-header h1{
-    padding-top: 25px;
-}
-
 header a{
     text-decoration:none;
     color:black;
     position: absolute;
     left:10px;
+    font-size: 75%;
 
 }
 
 header a:hover{
     color:lightgray;
 }
-header h2{
-    font-size: 50%;
-}
+
 
 ul{
     display:flex;
@@ -61,4 +46,14 @@ li h3{
     font-style: italic;
     color:rgb(51, 51, 51);
 }
+
+.dark a{
+    color:lightgray;
+}
+
+.dark li h3{
+    color:lightgray;
+}
+
+
 
