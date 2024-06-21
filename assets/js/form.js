@@ -3,7 +3,7 @@ const username = document.getElementById("username");
 const title = document.getElementById("title");
 const content = document.getElementById("content");
 
-const posts = [];
+let posts = [];
 
 function submitForm(event) {
 
