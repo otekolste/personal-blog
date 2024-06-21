@@ -3,11 +3,28 @@ header{
     font-size: 250%;
     text-align:center;
     border-bottom: 10px double;
+    position:relative;
+
 
 }
 
 header h1{
     padding-top: 25px;
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+    position: absolute;
+    left:10px;
+
+}
+
+header a:hover{
+    color:lightgray;
+}
+header h2{
+    font-size: 50%;
 }
 
 ul{
@@ -24,7 +41,7 @@ li{
     width: 90%;
     border: 2px solid;
     border-radius: 5px;
-    padding: 30px 20px;
+    padding: 40px 20px;
     position:relative;
 }
 
@@ -35,11 +52,13 @@ li h2{
     position:absolute;
     top:2px;
     width: 95%;
+    font-size: 125%;
 }
 
 li h3{
     position:absolute;
     bottom:2px;
     font-style: italic;
-    color:gray;
+    color:rgb(51, 51, 51);
 }
+
