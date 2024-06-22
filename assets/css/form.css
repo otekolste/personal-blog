@@ -24,6 +24,7 @@ form input{
     margin-bottom: 20px;
 }
 
+
 #content{
     height: 100px;
 }
@@ -38,5 +39,4 @@ form input{
 
 #submitbutton:hover{
     cursor:pointer;
-    color:var(--mid-blue);
 }

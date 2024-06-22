@@ -29,7 +29,7 @@ function submitForm(event) { // Function to handle form submission
         posts.push(newPost); // Adds post object to array
         storePosts(); // Calls function to store posts array in local storage
 
-        window.location.href = '../../blog.html'; // Redirects page to blog post page
+        window.location.replace("otekolste.github.io/personal-blog/blog.html"); // Redirects page to blog post page
 
     }
     
