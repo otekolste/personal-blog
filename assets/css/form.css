@@ -5,6 +5,8 @@
     --navy-blue: #005C78;
 }
 
+/*------ FORM ELEMENTS -------*/
+
 
 form{
     margin-top: 100px;
@@ -36,4 +38,5 @@ form input{
 
 #submitbutton:hover{
     cursor:pointer;
+    color:var(--mid-blue);
 }

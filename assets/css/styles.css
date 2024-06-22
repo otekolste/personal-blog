@@ -10,6 +10,8 @@
     font-family: 'Verdana', 'sans-serif';
 }
 
+/*------ HEADER ELEMENTS -------*/
+
 header{
     height: 100px;
     font-size: 250%;
@@ -24,7 +26,7 @@ header h1{
     padding-top: 25px;
 }
 
-#toggle{
+#toggle{ /* Light/dark mode toggle */
     border: none;
     background-color:transparent;
     font-size: 75%;
@@ -33,6 +35,8 @@ header h1{
     bottom: 10px;
 
 }
+
+/*------ MAIN BODY ELEMENTS -------*/
 
 
 #entry{
@@ -43,10 +47,7 @@ header h1{
     height:100vh;
 }
 
-#catpic{
-    border-radius: 50%;
-    width: 90%;
-}
+/*------ CAT PIC SECTION -------*/
 
 #catsection{
     flex: 1 0 50%;
@@ -58,16 +59,21 @@ header h1{
 
 }
 
+#catpic{
+    border-radius: 50%;
+    width: 90%;
+}
+
+/*------ FORM SECTION -------*/
+
+
 #formsection{
     flex: 1 0 50%;
 
 }
 
-.dark{
-    background-color: rgb(12, 7, 46);
-    color: lightgray;
+/*------ FOOTER ELEMENTS -------*/
 
-}
 
 footer{
     display:flex;
@@ -91,6 +97,18 @@ footer a{
 footer a:hover{
     color:var(--navy-blue);
 }
+
+/*------ DARK MODE DETAILS -------*/
+
+
+.dark{
+    background-color: rgb(12, 7, 46);
+    color: lightgray;
+
+}
+
+/*------ MEDIA QUERIES FOR SCREEN SIZE RESPONSIVENESS -------*/
+
 
 @media only screen and (max-width: 992px) {
     #entry{

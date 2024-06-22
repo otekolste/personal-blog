@@ -1,3 +1,6 @@
+/*------ HEADER ELEMENTS -------*/
+
+
 header a{
     text-decoration:none;
     color:black;
@@ -10,6 +13,8 @@ header a{
 header a:hover{
     color:lightgray;
 }
+
+/*------ PLOG POSTS -------*/
 
 
 ul{
@@ -46,6 +51,10 @@ li h3{
     font-style: italic;
     color:rgb(51, 51, 51);
 }
+
+
+/*------ DARK MODE STYLING -------*/
+
 
 .dark a{
     color:lightgray;
