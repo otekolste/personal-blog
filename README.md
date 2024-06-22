@@ -10,11 +10,31 @@ In short, creating this site enabled me to practice constructing a responsive si
 
 To use, go [here](otekolste.github.io/personal-blog/blog.html). 
 
-Input an username, title, and some content and submit it to be redirected to the next page. 
+![Picture of the landing page](./assets/images/landingpage.png)
+
+Input an username, title, and some content and submit it to be redirected to the next page. Note that if you are missing any of this information, an alert will pop up to ask you to try again.
+
+The next page will display the blog post you have just created!
+
+![Picture of the blog page](./assets/images/blogpage.png)
+
+From this page, you can go back to the landing page and create more posts. Each time, your post will be added to the next page!
+
+To clear the list of posts, on the blog page, in Google Chrome, right click -> "inspect" -> Application (on the top menu of the sidebar) -> "Local Storage" (in the sidebar on the left) -> right click on the object entitled "posts" -> Delete.
+
+Each page also has a moon icon in the upper right-hand corner. Clicking this will toggle dark mode.
+
+![Picture of the landing page in dark mode](./assets/images/landingpage-darkmode.png)
+
+As demonstrated in the image, the icon will change to a sun, because clicking again will restore the page to light mode.
+
 
 ## Credits
 
-[Cat on computer](https://www.flickr.com/photos/chough/8327120251)
+[Cat on computer](https://www.flickr.com/photos/chough/8327120251) - used with Creative Commons license
+
+Javascript code to switch page between light/dark mode referenced from [here](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 
 ## License
-Can be viewed 
+
+Can be viewed in the root of the directory, in the file entitled LICENSE.
