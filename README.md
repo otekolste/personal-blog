@@ -8,7 +8,7 @@ In short, creating this site enabled me to practice constructing a responsive si
 
 ## Usage
 
-To use, go [here](otekolste.github.io/personal-blog/blog.html). 
+To use, go [here](https://otekolste.github.io/personal-blog/blog.html). 
 
 ![Picture of the landing page](./assets/images/landingpage.png)
 
